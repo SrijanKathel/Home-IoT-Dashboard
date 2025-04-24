@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: home-iot-dashboard
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
